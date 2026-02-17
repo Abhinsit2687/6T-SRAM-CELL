@@ -1,12 +1,12 @@
 # 6T-SRAM-CELL
-6T SRAM Cell with Sense Amplifier (180nm Technology)
+## 6T SRAM Cell with Sense Amplifier (180nm Technology)
 📌 Project Overview
 
 This project presents the design and simulation of a 6-Transistor (6T) SRAM cell integrated with a Sense Amplifier implemented using 180nm CMOS technology. The objective of this project is to analyze the read, write, and hold operations of the SRAM cell and evaluate its performance in terms of stability, power, and speed.
 
 The design is implemented and simulated at transistor level to understand practical memory circuit behavior used in modern VLSI systems.
 
-🧠 What is 6T SRAM?
+## 🧠 What is 6T SRAM?
 
 A standard 6T SRAM cell consists of:
 
@@ -24,7 +24,7 @@ Read Operation
 
 Hold Operation
 
-🔎 Sense Amplifier
+## 🔎 Sense Amplifier
 
 A Sense Amplifier is used to detect small voltage differences between bit lines during the read operation.
 
@@ -40,7 +40,7 @@ Enhances reliability
 
 This project uses a differential sense amplifier for fast and accurate read detection.
 
-⚙️ Technology Used
+## ⚙️ Technology Used
 
 Technology Node: 180nm CMOS
 
@@ -50,17 +50,15 @@ Transistor Type: NMOS & PMOS
 
 Design Level: Transistor-level schematic
 
-🛠 Tools Used
-
-Cadence Virtuoso / LTSpice / NGSpice (whichever you used)
+## 🛠 Tools Used
+LTSpice
 
 CMOS 180nm PDK
 
 Transient and DC analysis simulations
 
-(Edit this section based on your actual tools.)
 
-📊 Simulation Results
+## 📊 Simulation Results
 
 The following results were analyzed:
 
@@ -76,7 +74,7 @@ Static Noise Margin (SNM) (if calculated)
 
 Power consumption (if calculated)
 
-Observations:
+## Observations:
 
 Successful read and write operations achieved.
 
@@ -86,7 +84,7 @@ Stable hold condition observed.
 
 Proper functionality at 1.8V supply.
 
-📐 Circuit Description
+## 📐 Circuit Description
 6T SRAM Cell
 
 2 Pull-up PMOS
@@ -106,7 +104,7 @@ Cross-coupled latch structure
 
 Converts small voltage difference to full logic swing output
 
-🚀 Applications
+## 🚀 Applications
 
 Cache Memory
 
@@ -116,7 +114,7 @@ High-speed On-chip Memory
 
 VLSI Systems
 
-📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 Through this project, I gained:
 
@@ -130,7 +128,7 @@ Understanding of sense amplifier operation
 
 Experience in 180nm CMOS technology simulation
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Layout design and DRC/LVS verification
 
